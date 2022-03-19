@@ -295,7 +295,7 @@ line-height: 1.195;
 }
 
 .Footer a {
-  color: rgba(55, 53, 47);
+  color: rgba(55, 53, 47, 0.6);
 }
 
 @media only screen and (max-width: 680px) {
