@@ -19,6 +19,7 @@ body {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   overflow-x: auto;
+  position: fixed;
 }
 
 .Navbar a {
