@@ -56,6 +56,19 @@
 </head>
 
 <body>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("Navbar").style.top = "0";
+  } else {
+    document.getElementById("Navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+  
   <nav class="Navbar">
   <a href="https://erinneong.github.io">
     <div class="Navbar__Btn">
