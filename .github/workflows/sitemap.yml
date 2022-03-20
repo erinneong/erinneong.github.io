@@ -3,6 +3,7 @@ name: Generate xml sitemap
 on:
   push:
     branches: [ main ]
+    paths: [ '**.html', '**.pdf' ]
 
 jobs:
   sitemap_job:
@@ -17,7 +18,7 @@ jobs:
 
     - name: Generate the sitemap
       id: sitemap
-      uses: cicirello/generate-sitemap@v1.8.2
+      uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://erinneong.github.io/
         drop-html-extension: true
