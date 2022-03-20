@@ -1,0 +1,3 @@
+url: "https://erinneong.github.io" #test
+plugins:
+  - jekyll-sitemap
