@@ -23,7 +23,13 @@ jobs:
         drop-html-extension: true
         path-to-root: docs
 
-name: Create Pull Request
+    - name: Output stats
+      run: |
+        echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+        echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+        echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+        
+      - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.12.0
       with:
         title: "Automated sitemap update"
@@ -36,8 +42,3 @@ name: Create Pull Request
         committer: Erinne C. Ong <ongerinne@gmail.com>
         branch: create-pull-request/sitemap
         delete-branch: true
-    - name: Output stats
-      run: |
-        echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-        echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-        echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
