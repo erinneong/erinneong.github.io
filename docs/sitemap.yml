@@ -1,2 +1,5 @@
 - name: generate-sitemap
   uses: cicirello/generate-sitemap@v1.8.2
+  
+  with:
+        base-url-path: https://erinneong.github.io/
