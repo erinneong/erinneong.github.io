@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://erinneong.github.io</loc>
-<lastmod>2022-03-25T22:18:07+08:00</lastmod>
+<loc>https://erinneong.github.io/</loc>
+<lastmod>2022-03-28T19:13:42+08:00</lastmod>
 </url>
 <url>
 <loc>https://erinneong.github.io/cv</loc>
-<lastmod>2022-03-25T20:05:46+08:00</lastmod>
+<lastmod>2022-03-28T18:21:47+08:00</lastmod>
 </url>
 <url>
 <loc>https://erinneong.github.io/googleb80cd64749d7763b</loc>
@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://erinneong.github.io/portfolio</loc>
-<lastmod>2022-03-25T20:05:15+08:00</lastmod>
+<lastmod>2022-03-25T22:29:31+08:00</lastmod>
 </url>
 <url>
 <loc>https://erinneong.github.io/files/ONG Erinne_CV 2022.pdf</loc>
@@ -23,5 +23,9 @@
 <url>
 <loc>https://erinneong.github.io/files/ONG et al (2016)_Formative Assessments as Scaffolds to Increase Mathematics Achievement of Grade 11 Students.pdf</loc>
 <lastmod>2022-03-20T19:51:21+08:00</lastmod>
+</url>
+<url>
+<loc>https://erinneong.github.io/files/ONG_Erinne_CV.pdf</loc>
+<lastmod>2022-03-28T18:21:00+08:00</lastmod>
 </url>
 </urlset>
