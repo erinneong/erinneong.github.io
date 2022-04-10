@@ -70,20 +70,21 @@
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: rgb(11, 110, 153); /*rgb(15, 123, 108);*/
-  color: #FFFFFF;
+  background-color: rgba(11, 110, 153, 0.70); /*rgb(15, 123, 108);*/
+  color: #484848;
   cursor: pointer;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
 #scrollBtn:hover {
-  background-color: rgb(11, 110, 153, 70);
+  background-color: rgba(11, 110, 153);
+  color: rgba(255,255,255,0.68);
 }
     
     .DateTagBar__Tag:hover
     {
-      color: #555;
+      background-color: rgb(11,110,153);
     }
     
   </style>
@@ -160,7 +161,7 @@ var mybutton = document.getElementById("scrollBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
