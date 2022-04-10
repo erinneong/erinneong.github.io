@@ -65,28 +65,33 @@
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 60px;
+  right: 20%;
   z-index: 99;
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: rgb(11, 110, 153); /*rgb(15, 123, 108);*/
-  color: #FFFFFF;
+  background-color: rgba(0, 120, 223, 0.35); /*rgb(15, 123, 108);*/
+  color: #303030;
   cursor: pointer;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
 #scrollBtn:hover {
-  background-color: rgba(0, 120, 223, 0.2); /*rgba(11, 110, 153, 0.60);*/
-  color: #303030;
+  background-color: rgb(15, 123, 108, 0.75); /*rgba(11, 110, 153, 0.60);*/
+  color: #FFFFFF;
 }
     
     .DateTagBar__Tag:hover
     {
       background-color: rgb(11,110,153);
-      color: #C0C0C0;
+      color: #FFFFFF;
     }
+    
+        /* .DateTagBar__Tag a:hover
+    {
+      color: #FFFFFF;
+    } */
     
   </style>
 </head>
@@ -145,14 +150,14 @@
         
         
           <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="https://erinneong.github.io/portfolio/sports">Sports</a>
+            <a href="https://erinneong.github.io/portfolio/sports"><strong>Sports</strong></a>
           </span>
         
       </div>
     
   </header>
   
-  <button onclick="topFunction()" id="scrollBtn" title="Go to top">Scroll to top</button>
+  <button onclick="topFunction()" id="scrollBtn" title="Go to top"><strong>Scroll to top</strong></button>
   
   <script>
 //Get the button
