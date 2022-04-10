@@ -58,18 +58,19 @@
     {
       margin-top: 20px;
       font-size: 20px;
+      color: rgb(20, 23, 107);
     }
     
     #scrollBtn {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 40px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   outline: none;
-  background-color: rgb(15, 123, 108);
+  background-color: rgb(11, 110, 153); /*rgb(15, 123, 108);*/
   color: #FFFFFF;
   cursor: pointer;
   padding: 15px 20px;
@@ -77,7 +78,7 @@
 }
 
 #scrollBtn:hover {
-  background-color: rgb(11, 110, 153);
+  background-color: rgb(221, 235, 241);
 }
     
     .DateTagBar__Tag:hover
@@ -159,7 +160,7 @@ var mybutton = document.getElementById("scrollBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
