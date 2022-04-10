@@ -65,12 +65,12 @@
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 10%;
+  right: 8%;
   z-index: 99;
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: rgba(0, 120, 223, 0.35); /*rgb(15, 123, 108);*/
+  background-color: rgba(0, 120, 223, 0.30); /*rgb(15, 123, 108);*/
   color: #303030;
   cursor: pointer;
   padding: 15px 20px;
@@ -78,19 +78,20 @@
 }
 
 #scrollBtn:hover {
-  background-color: rgb(15, 123, 108, 0.9); /*rgba(11, 110, 153, 0.60);*/
+  background-color: rgb(15, 123, 108, 0.9); /*rgb(11, 110, 153);*/
   color: #FFFFFF;
 }
     
     .DateTagBar__Tag:hover
     {
-      background-color: rgb(11,110,153);
-    }
-    
-        .DateTagBar__Tag a:hover
-    {
+      background-color: rgb(15, 123, 108, 0.9);
       color: #FFFFFF;
     }
+    
+       /* .DateTagBar__Tag a:hover
+    {
+      color: #FFFFFF;
+    } */
     
   </style>
 </head>
@@ -166,7 +167,7 @@ var mybutton = document.getElementById("scrollBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
