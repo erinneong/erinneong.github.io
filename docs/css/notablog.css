@@ -364,7 +364,7 @@ line-height: 1.195;
 }
 
 .sidepanel a:hover {
-  color: rgba(15, 123, 108, 0.9);  /* rgba(80, 194, 222, 0.75); */
+  color: #1aa3ff;  /* rgba(15, 123, 108, 0.9); rgba(80, 194, 222, 0.75); */
 }
 
 .sidepanel .closebtn {
