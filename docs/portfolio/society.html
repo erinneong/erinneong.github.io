@@ -30,6 +30,34 @@
     margin: 0px auto;
     padding: 0px 70px;
   }
+  
+  .dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
 </style>
   
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🎨&lt;/text&gt;&lt;/svg&gt;">
@@ -52,7 +80,7 @@
   </a>
     
   <span class="Navbar__Delim">&centerdot;</span>
-      <a href="cv">
+      <a href="https://erinneong.github.io/cv">
         <div class="Navbar__Btn">
           
             <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🗂&lt;/text&gt;&lt;/svg&gt;">&nbsp;CV</span>
@@ -60,10 +88,15 @@
       </a>
     
       <span class="Navbar__Delim">&centerdot;</span>
-      <a href="https://erinneong.github.io/portfolio">
+      <a href="https://erinneong.github.io/portfolio"><div class="dropdown">
         <div class="Navbar__Btn">
           
-            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🖊️&lt;/text&gt;&lt;/svg&gt;">&nbsp;Portfolio</span>
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🖊️&lt;/text&gt;&lt;/svg&gt;">&nbsp;Portfolio</span></div>
+        <div class="dropdown-content">
+      <a href="https://erinneong.github.io/portfolio/science">Science</a>
+      <a href="https://erinneong.github.io/portfolio/sports">Sports</a>
+      <a href="https://erinneong.github.io/portfolio/society">Society</a>
+    </div>
         </div>
     </a>
   
