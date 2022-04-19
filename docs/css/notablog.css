@@ -366,7 +366,7 @@ line-height: 1.195;
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: rgba(80, 194, 222, 0.3);
+  color: rgba(80, 194, 222, 0.75);
 }
 
 /* Position and style the close button (top right corner) */
