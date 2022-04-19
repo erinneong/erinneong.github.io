@@ -32,6 +32,7 @@
   }
   
   .dropdown {
+  position: relative;
   display: inline-block;
 }
 
@@ -39,9 +40,10 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  width: 100%;
+  overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content a {
@@ -89,9 +91,9 @@
     
       <span class="Navbar__Delim">&centerdot;</span>
       <a href="https://erinneong.github.io/portfolio"><div class="dropdown">
-        <div class="Navbar__Btn">
+        <button class="Navbar__Btn">
           
-            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🖊️&lt;/text&gt;&lt;/svg&gt;">&nbsp;Portfolio</span></div>
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🖊️&lt;/text&gt;&lt;/svg&gt;">&nbsp;Portfolio</span></button>
         <div class="dropdown-content">
       <a href="https://erinneong.github.io/portfolio/science">Science</a>
       <a href="https://erinneong.github.io/portfolio/sports">Sports</a>
