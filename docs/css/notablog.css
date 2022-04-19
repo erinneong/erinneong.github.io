@@ -342,15 +342,15 @@ line-height: 1.195;
 /* sidepanel / contact panel */
 
 .sidepanel {
-  height: 230px; /* Specify a height */
+  height: 215px; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: absolute; /* Stay in place */
   z-index: 999; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.8);
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px; /* Place content 60px from the top */
+  padding-top: 45px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
 }
 
@@ -366,7 +366,7 @@ line-height: 1.195;
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: rgb(11, 110, 153);
+  color: rgba(0, 120, 223, 0.40);
 }
 
 /* Position and style the close button (top right corner) */
