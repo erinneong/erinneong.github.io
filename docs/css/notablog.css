@@ -342,19 +342,18 @@ line-height: 1.195;
 /* sidepanel / contact panel */
 
 .sidepanel {
-  height: 215px; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: absolute; /* Stay in place */
-  z-index: 999; /* Stay on top */
+  height: 215px;
+  width: 0;
+  position: absolute;
+  z-index: 999;
   top: 0;
   right: 0;
   background-color: rgba(200, 200, 200, 0.55); /* rgba(0,0,0,0.8); */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 50px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  padding-top: 50px;
+  transition: 0.5s;
 }
 
-/* The sidepanel links */
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -364,30 +363,14 @@ line-height: 1.195;
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: rgba(80, 194, 222, 0.75); /* rgba(15, 123, 108, 0.9);  */
+  color: rgba(15, 123, 108, 0.9);  /* rgba(80, 194, 222, 0.75); */
 }
 
-/* Position and style the close button (top right corner) */
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 33px;
   margin-left: 50px;
-}
-
-/* Style the button that is used to open the sidepanel */
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
 }
