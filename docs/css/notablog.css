@@ -348,9 +348,9 @@ line-height: 1.195;
   z-index: 999; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: rgba(200, 200, 200, 0.45); /* rgba(0,0,0,0.8); */
+  background-color: rgba(200, 200, 200, 0.55); /* rgba(0,0,0,0.8); */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 45px; /* Place content 60px from the top */
+  padding-top: 50px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
 }
 
@@ -366,7 +366,7 @@ line-height: 1.195;
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: rgb(15, 123, 108, 0.4); /* rgba(80, 194, 222, 0.75); */
+  color: rgba(80, 194, 222, 0.75); /* rgba(15, 123, 108, 0.9);  */
 }
 
 /* Position and style the close button (top right corner) */
