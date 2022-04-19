@@ -112,7 +112,35 @@
         </div>
     </a>
     
-    <!-- /* add side nav bar for each section href="#section" */
+  
+ <div class="Navbar__Btn" style="float:right; position: fixed; right: 2%;" onclick="openNav()">
+            <span style="color:rgba(255,255,255,0.68);"><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;📨&lt;/text&gt;&lt;/svg&gt;">&nbsp;Contact</span>
+        </div>
+    
+  
+</nav>
+  
+  <div id="contactpanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="mailto:ongerinne@gmail.com" target="_blank">Email</a>
+  <a href="https://www.linkedin.com/in/erinne-ong/" target="_blank">LinkedIn</a>
+  <a href="https://twitter.com/erinneuro" target="_blank">Twitter</a>
+</div>
+  
+  <script>
+  
+  function openNav() {
+  document.getElementById("contactpanel").style.width = "250px";
+}
+  
+function closeNav() {
+  document.getElementById("contactpanel").style.width = "0";
+}
+    
+  
+  </script>
+  
+     <!-- /* add side nav bar for each section href="#section" */
 
 ul {
   list-style-type: none;
@@ -150,9 +178,7 @@ li a:hover {
 </ul>
 
 -->
-    
   
-</nav>
   <header class="Header">
     
       <div class="Header__Cover">
