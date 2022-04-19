@@ -348,7 +348,7 @@ line-height: 1.195;
   z-index: 999;
   top: 0;
   right: 0;
-  background-color: rgba(200, 200, 200, 0.60); /* rgba(0,0,0,0.8); */
+  background-color: rgba(190, 190, 190, 0.55); /* rgba(0,0,0,0.8); */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 50px;
   transition: 0.5s;
