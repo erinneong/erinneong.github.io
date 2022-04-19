@@ -614,13 +614,15 @@ pre.Code code {
 
 .File > div {
   display: flex;
-  padding: 5px 0;
+  padding: 7px 0 5px;
   margin: 2px 0;
+  border: 1px solid var(--color-ui-hover-bg);
   border-radius: 5px;
   transition: background 120ms ease-in 0s;
 }
 
 .File > div:hover {
+  border: 1px solid var(--color-ui-hover-bg);
   background: var(--color-ui-hover-bg);
 }
 
