@@ -126,6 +126,14 @@ function closeNav() {
   document.getElementById("contactpanel").style.width = "0";
 }
   
+     window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    document.getElementById("contactpanel").style.width = "0";
+  }
+}
+    
   </script>
   
   <header class="Header">
