@@ -109,20 +109,20 @@ function scrollFunction() {
   }
 }
     
-    var sportTab = document.getElementById("sortbysport");
+    /* var sportTab = document.getElementById("sortbysport");
     var typeTab = document.getElementById("sortbytype");
     var refUAAPFootball = document.getElementById("cat-uaap-football");
     var refIntlFootball = document.getElementById("cat-intl-football");
     var refRecaps = document.getElementById("cat-recaps");
     var refFeatures = document.getElementById("cat-features");
-    var refMisc = document.getElementById("cat-misc");
+    var refMisc = document.getElementById("cat-misc"); */
     
     function showDiv(sortbysport) {
       document.getElementById("sortbysport").style.display = "block";
       document.getElementById("sortbytype").style.display = "none";
     }
     
-    function showDiv(sortbytype) {
+    function showType(sortbytype) {
       document.getElementById("sortbysport").style.display = "none";
       document.getElementById("sortbytype").style.display = "block";
     }
@@ -153,7 +153,7 @@ function scrollFunction() {
     <div class="ColumnList"><div class="Column" style="width:calc((100% - var(--column-spacing) * 2) * 0.350)">
       <!--<p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🖼 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://www.notion.so/erinneong/Gallery-View-7dd1daec27a9416988c702184e9c63e0" target="_blank">Gallery View</a></span></span></p>-->
       <p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🔬 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/science">Science</a></span></span></p>
-      <p class="notion_link" onclick="showDiv('sortbytype')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Category</span></span></p>
+      <p class="notion_link" onclick="showType('sortbytype')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Category</span></span></p>
       <p class="notion_link" id="cat-recaps" style="display:block;"><span class="SemanticStringArray"><span class="SemanticString">🎖 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#sports-recaps">Game Recaps</a></span></span></p>
       <p class="notion_link" id="cat-uaap-football" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">⚽️ </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#uaap-football">UAAP Football</a></span></span></p>
       </div>
