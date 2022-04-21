@@ -119,7 +119,7 @@ function scrollFunction() {
     
     function showDiv(sortbysport) {
     if(sportTab.style.display=="none") {
-        sportTab.style.display = "block";
+      sportTab.style.display = "block";
       typeTab.style.display = "none";
       refUAAPFootball.style.display = "block";
       refIntlFootball.style.display = "block";
@@ -166,14 +166,14 @@ function scrollFunction() {
     <div class="ColumnList"><div class="Column" style="width:calc((100% - var(--column-spacing) * 2) * 0.350)">
       <!--<p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🖼 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://www.notion.so/erinneong/Gallery-View-7dd1daec27a9416988c702184e9c63e0" target="_blank">Gallery View</a></span></span></p>-->
       <p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🔬 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/science">Science</a></span></span></p>
-      <p class="notion_link" onclick="showDiv('sortbytype')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--Link SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Category</span></span></p>
+      <p class="notion_link" onclick="showDiv('sortbytype')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--Link SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);" onclick="showDiv('sortbytype')">Sort by Category</span></span></p>
       <p class="notion_link" id="cat-recaps" style="display:block;"><span class="SemanticStringArray"><span class="SemanticString">🎖 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#sports-recaps">Game Recaps</a></span></span></p>
       <p class="notion_link" id="cat-uaap-football" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">⚽️ </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#uaap-football">UAAP Football</a></span></span></p>
       </div>
     <div class="Column" style="width:calc((100% - var(--column-spacing) * 2) * 0.31)">
       <!--<p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">📋 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://www.notion.so/erinneong/List-View-d5868168c185471fa4ec70862ca97356" target="_blank">List View</a></span></span></p>-->
       <p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🎨 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/society">Society</a></span></span></p>
-      <p class="notion_link" onclick="showDiv('sortbysport')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--Link SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Sport/League</span></span></p>
+      <p class="notion_link" onclick="showDiv('sortbysport')"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--Link SemanticString__Fragment--ColorDarkBlue" style="border-bottom:2px solid hsl(45, 8%, 85%);" onclick="showDiv('sortbytype')">Sort by Sport/League</span></span></p>
       <p class="notion_link" id="cat-features" style="display:block;"><span class="SemanticStringArray"><span class="SemanticString">🥅 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#sports-features">Features & Previews</a></span></span></p>
       <p class="notion_link" id="cat-intl-football" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">🌏 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports#intl-football">International Football</a></span></span></p>
       </div>
@@ -253,6 +253,10 @@ function scrollFunction() {
 </div> </div>
     
     </div>
+
+
+
+
 
 <div id="sortbytype" style="display:block;" class="answer_list">
     
