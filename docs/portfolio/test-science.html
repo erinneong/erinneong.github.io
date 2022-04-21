@@ -141,8 +141,7 @@ function scrollFunction() {
       document.getElementById("cat-tls").style.display = "none";
     }
     
-    function pubTab()
-    {
+    function pubTab() {
       document.getElementById("sortbyfield").style.display = "none";
       document.getElementById("sortbytype").style.display = "none";
       document.getElementById("sortbypub").style.display = "block";
@@ -155,6 +154,10 @@ function scrollFunction() {
       document.getElementById("cat-asm").style.display = "block";
       document.getElementById("cat-astar").style.display = "block";
       document.getElementById("cat-tls").style.display = "block";
+    }
+    
+    function test {
+      document.getElementbyId("testdocu").style.display = "block";
     }
   
   </script>
@@ -194,11 +197,16 @@ function scrollFunction() {
       <div class="Column" style="width:calc((100% - var(--column-spacing) * 2) * 0.333)">
        <!--<p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://www.notion.so/erinneong/Solo-Works-Only-c0db7c7c5af843edb3f4fa774df85c86" target="_blank">Solo Works Only</a></span></span></p>-->
         <p class="notion_link"><span class="SemanticStringArray"><span class="SemanticString">🏆 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/sports">Sports</a></span></span></p>
-        <p class="notion_link" onclick="pubTab()"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue SemanticString__Fragment--Link" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Publication</span></span></p>
+        <p class="notion_link" onclick="test()"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue SemanticString__Fragment--Link" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Publication</span></span></p>
         <p class="notion_link" id="cat-profiles" style="display:block;"><span class="SemanticStringArray"><span class="SemanticString">👩‍🔬 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/science#science-profiles">Scientist Profiles</a></span></span></p>
     <p class="notion_link" id="cat-envi" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">🌱 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/science#sustainability">Sustainability</a></span></span></p>
         <p class="notion_link" id="cat-tls" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">🟢 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/science#tls">The LaSallian</a></span></span></p>
     </div></div>
+    
+    <div id="testdocu" style="display:none;" class="answer_list">
+      <p> this is a test </p>
+      <div class="Bookmark"><a href="https://www.asianscientist.com/2022/03/print/fighting-food-fraud/" target="_blank"><h5 class="Bookmark__Title" style="margin-bottom:10px; height:1rem;">Fighting food fraud</h5></p><p><span><img src="https://www.asianscientist.com/wp-content/uploads/bfi_thumb/Fighting-Food-Fraud_1024x607-3fbxfba9wzylh6zyr6ht6o.jpg" width="99%" height="auto" object-fit="contain"></span></p><p class="Bookmark__Link">Mar. 30, 2022 | Asian Scientist Magazine</p></a></div>
+    </div>
 
 <!-- SORT BY TYPE -->
   
