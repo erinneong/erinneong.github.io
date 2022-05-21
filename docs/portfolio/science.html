@@ -36,6 +36,28 @@
     cursor: pointer;
   }
   
+  
+   #scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 120, 223, 0.30); /*rgb(15, 123, 108);*/
+  color: #303030;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#scrollBtn:hover {
+  background-color: rgb(15, 123, 108, 0.9); /*rgba(11, 110, 153, 0.60);*/
+  color: #FFFFFF;
+}
+  
 </style>
   
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔬&lt;/text&gt;&lt;/svg&gt;">
@@ -107,7 +129,17 @@ function closeNav() {
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("contactpanel").style.width = "0";
+    document.getElementById("scrollBtn").style.display = "block";
   }
+  
+  else {
+    document.getElementById("scrollBtn").style.display = "none";
+  }
+}
+     
+    function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
     
     function fieldTab() {
