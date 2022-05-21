@@ -31,6 +31,10 @@
     padding: 0px 70px;
   }
   
+.notion_link {
+cursor:pointer;
+}
+  
 </style>
   
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔬&lt;/text&gt;&lt;/svg&gt;">
@@ -105,8 +109,8 @@ function scrollFunction() {
   }
 }
     
-    function sportTab() {
-      document.getElementById("sortbysport").style.display = "block";
+    function fieldTab() {
+      document.getElementById("sortbyfield").style.display = "block";
       document.getElementById("sortbytype").style.display = "none";
       document.getElementById("cat-biomed").style.display = "block";
       document.getElementById("cat-sustainability").style.display = "block";
@@ -117,7 +121,7 @@ function scrollFunction() {
     }
     
     function typeTab() {
-      document.getElementById("sortbysport").style.display = "none";
+      document.getElementById("sortbyfield").style.display = "none";
       document.getElementById("sortbytype").style.display = "block";
       document.getElementById("cat-biomed").style.display = "none";
       document.getElementById("cat-sustainability").style.display = "none";
@@ -167,7 +171,7 @@ function scrollFunction() {
       <p class="notion_link" id="cat-biomed" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">⚽️ </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/test-sci#biomed">Biomedicine</a></span></span></p>
       </div>
     <div class="Column" style="width:calc((100% - var(--column-spacing) * 2) * 0.333)">
-      <p class="notion_link" onclick="sportTab()"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue SemanticString__Fragment--Link" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Sport/League</span></span></p>
+      <p class="notion_link" onclick="fieldTab()"><span class="SemanticStringArray"><span class="SemanticString">📍 </span><span class="SemanticString SemanticString__Fragment--ColorDarkBlue SemanticString__Fragment--Link" style="border-bottom:2px solid hsl(45, 8%, 85%);">Sort by Field</span></span></p>
       <p class="notion_link" id="cat-features" style="display:block;"><span class="SemanticStringArray"><span class="SemanticString">🥅 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/test-sci#sports-features">Features & Previews</a></span></span></p>
       <p class="notion_link" id="cat-sustainability" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">🌏 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/test-sci#sustainability">Sustainability</a></span></span></p>
       </div>
@@ -177,7 +181,7 @@ function scrollFunction() {
 <p class="notion_link" id="cat-tech" style="display:none;"><span class="SemanticStringArray"><span class="SemanticString">🏀 </span><span class="SemanticString" style="border-bottom:2px solid hsl(45, 8%, 85%);"><a class="SemanticString__Fragment SemanticString__Fragment--ColorBlue SemanticString__Fragment--Link" href="https://erinneong.github.io/portfolio/test-sci#tech">Technology</a></span></span></p>
       </div></div>
     
-    <div id="sortbysport" style="display:none;" class="answer_list">
+    <div id="sortbyfield" style="display:none;" class="answer_list">
       
       <div class="Divider" style="margin-top:10px; margin-bottom:8px"></div>
     
