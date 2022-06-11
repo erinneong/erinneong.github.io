@@ -927,7 +927,7 @@ cursor: pointer;
 .SemanticString__Fragment--Link:hover,
 .SemanticString__Fragment--Resource > a:hover {
 color: var(--color-text-green);
-font-weight: 525;
+font-weight: 530;
 }
 
 .SemanticString__Fragment--Code {
