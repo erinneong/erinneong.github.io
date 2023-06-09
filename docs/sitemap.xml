@@ -1,62 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://erinneong.github.io/</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://erinneong.github.io/</loc>
+<lastmod>2023-06-09T14:28:47+02:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/cv</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://erinneong.github.io/cv</loc>
+<lastmod>2023-06-08T21:34:18+02:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://erinneong.github.io/googleb80cd64749d7763b</loc>
+<lastmod>2022-03-20T00:02:53+08:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/files/ONGErinne_CV2022.pdf</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://erinneong.github.io/portfolio</loc>
+<lastmod>2023-06-10T00:32:56+02:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/files/ONG%20et%20al%20(2016)_Formative%20Assessments%20as%20Scaffolds%20to%20Increase%20Mathematics%20Achievement%20of%20Grade%2011%20Students.pdf</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://erinneong.github.io/files/ONG et al (2016)_Formative Assessments as Scaffolds to Increase Mathematics Achievement of Grade 11 Students.pdf</loc>
+<lastmod>2022-03-20T19:51:21+08:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio/science</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://erinneong.github.io/files/ONGErinne_CV2022.pdf</loc>
+<lastmod>2022-04-11T10:53:49+08:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio/society</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://erinneong.github.io/files/ONGErinne_CV_FullForPublic.pdf</loc>
+<lastmod>2022-07-13T13:43:19+08:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio/sports</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://erinneong.github.io/portfolio/science</loc>
+<lastmod>2023-06-10T00:29:29+02:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio/articles/sports-moving-goalposts</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://erinneong.github.io/portfolio/society</loc>
+<lastmod>2022-06-11T11:46:03+08:00</lastmod>
 </url>
 <url>
-  <loc>https://erinneong.github.io/portfolio/articles/uwcl-finals-preview-lyon-wolfsburg-2020</loc>
-  <lastmod>2022-05-04T17:15:38+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://erinneong.github.io/portfolio/sports</loc>
+<lastmod>2023-06-10T00:24:35+02:00</lastmod>
 </url>
-
-
+<url>
+<loc>https://erinneong.github.io/portfolio/articles/sports-moving-goalposts</loc>
+<lastmod>2022-06-09T16:40:38+08:00</lastmod>
+</url>
+<url>
+<loc>https://erinneong.github.io/portfolio/articles/uwcl-finals-preview-lyon-wolfsburg-2020</loc>
+<lastmod>2022-04-19T19:50:58+08:00</lastmod>
+</url>
 </urlset>
