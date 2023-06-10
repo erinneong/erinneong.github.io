@@ -31,33 +31,25 @@
     padding: 0px 70px;
   }
   
-  .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
+     #scrollBtn {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 100%;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 120, 223, 0.30); /*rgb(15, 123, 108);*/
+  color: #303030;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 4px;
 }
 
-.dropdown-content a {
-  color: #000000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+#scrollBtn:hover {
+  background-color: rgb(15, 123, 108, 0.9); /*rgba(11, 110, 153, 0.60);*/
+  color: #FFFFFF;
 }
   
 </style>
@@ -118,21 +110,31 @@
   
   <script>
   
-  function openNav() {
+ function openNav() {
   document.getElementById("contactpanel").style.width = "250px";
 }
   
 function closeNav() {
   document.getElementById("contactpanel").style.width = "0";
 }
-  
+    
      window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("contactpanel").style.width = "0";
+    document.getElementById("scrollBtn").style.display = "block";
+  }
+  
+  else {
+    document.getElementById("scrollBtn").style.display = "none";
   }
 }
+     
+    function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+    }
     
   </script>
   
