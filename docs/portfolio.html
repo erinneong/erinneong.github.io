@@ -95,7 +95,9 @@
   <a href="https://twitter.com/erinneuro" target="_blank">Twitter</a>
 </div>
   
-  <script>
+ <button onclick="topFunction()" id="scrollBtn" title="Go to top"><strong>Scroll to top</strong></button>
+  
+   <script>
   
   function openNav() {
   document.getElementById("contactpanel").style.width = "250px";
@@ -105,12 +107,22 @@ function closeNav() {
   document.getElementById("contactpanel").style.width = "0";
 }
     
-    window.onscroll = function() {scrollFunction()};
+     window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("contactpanel").style.width = "0";
+    document.getElementById("scrollBtn").style.display = "block";
   }
+  
+  else {
+    document.getElementById("scrollBtn").style.display = "none";
+  }
+}
+     
+    function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
   
   </script>
