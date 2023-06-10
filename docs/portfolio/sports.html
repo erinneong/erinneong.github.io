@@ -33,6 +33,27 @@
   .notion_link {
 cursor:pointer;
 }
+  
+     #scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 120, 223, 0.30); /*rgb(15, 123, 108);*/
+  color: #303030;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#scrollBtn:hover {
+  background-color: rgb(15, 123, 108, 0.9); /*rgba(11, 110, 153, 0.60);*/
+  color: #FFFFFF;
+}
 
 </style>
   
@@ -85,7 +106,9 @@ cursor:pointer;
   <a href="https://twitter.com/erinneuro" target="_blank">Twitter</a>
 </div>
   
-  <script>
+  <button onclick="topFunction()" id="scrollBtn" title="Go to top"><strong>Scroll to top</strong></button>
+  
+   <script>
   
   function openNav() {
   document.getElementById("contactpanel").style.width = "250px";
@@ -94,13 +117,23 @@ cursor:pointer;
 function closeNav() {
   document.getElementById("contactpanel").style.width = "0";
 }
-  
+    
      window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("contactpanel").style.width = "0";
+    document.getElementById("scrollBtn").style.display = "block";
   }
+  
+  else {
+    document.getElementById("scrollBtn").style.display = "none";
+  }
+}
+     
+    function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
     
     function sportTab() {
