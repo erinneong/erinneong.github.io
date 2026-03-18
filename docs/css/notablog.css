@@ -315,6 +315,13 @@ line-height: 1.195;
   .Header__Cover > img {
     height: calc(30vh + 30px);
   }
+
+  .PageRoot {
+  width: 600px;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 0px 50px; 
+  }
 }
 
 @supports (not (backdrop-filter: blur(20px))) and
