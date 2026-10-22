@@ -349,13 +349,13 @@ line-height: 1.195;
 /* sidepanel / contact panel */
 
 .sidepanel {
-  height: 215px;
+  height: 180px;
   width: 0;
   position: absolute;
   z-index: 999;
   top: 0;
   right: 0;
-  background-color: rgba(190, 190, 190, 0.55); /* rgba(0,0,0,0.8); */
+  background-color: rgba(15, 123, 108,0.7) /*rgba(190, 190, 190, 0.55); * rgba(0,0,0,0.8); */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 50px;
   transition: 0.5s;
@@ -365,13 +365,13 @@ line-height: 1.195;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 22px;
-  color: rgba(255,255,255,0.75); /* rgba(255,255,255,0.64); */
+  color: rgba(20, 23, 107,0.8); /* rgba(255,255,255,0.75)//rgba(255,255,255,0.64); */
   display: block;
   transition: 0.3s;
 }
 
 .sidepanel a:hover {
-  color: #4db8ff  /* #1aa3ff; rgba(15, 123, 108, 0.9); rgba(80, 194, 222, 0.75); */
+  color: rgba(15, 123, 108,0.8)  /* #1aa3ff; rgba(15, 123, 108, 0.9); rgba(80, 194, 222, 0.75); */
 }
 
 .sidepanel .closebtn {
